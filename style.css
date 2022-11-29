@@ -217,7 +217,8 @@
 }
 .middle
 {
-    display: block;
+    display: flex;
+
 }
 
 
@@ -457,7 +458,11 @@
 }
 .hi 
 {
-    display:flex;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 83%;
 }
 .bl1 
 {
@@ -600,6 +605,9 @@
 }
 .txt2 
 {
+    height: 3em;
+    display: flex;
+    align-items: flex-end;
     width: 26em;
 }
 #txt2 
@@ -609,7 +617,8 @@
 
 .middle 
 {
-    background-color: pink;
+    background-color: white;
+    /* background-color: pink; */
     width:100%;
 }
 .right1
@@ -624,6 +633,7 @@
 {
     width: 65%;
     height: 82rem;
+    
     display: flex;
     background-color: white;
     flex-wrap: wrap;
@@ -635,6 +645,7 @@
 }
 .image1 
 {
+    padding-top: 1.8em;
     width: 36%;
     display: flex;
     /* display: contents; */
@@ -701,7 +712,7 @@
 .do1 
 {
     display: flex;
-    width: 30em;
+    width: 31em;
     height: 6em;
     align-items: center;
     justify-content: center;
@@ -715,11 +726,16 @@
 }
 .blo1
 {
-    width: 19em;
-    height:5em;
+    width: 21em;
+    height: 5em;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    /* width: 19em;
+    height:5em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; */
 }
 
 .buton1 
@@ -828,6 +844,11 @@
     justify-content: center;
     align-items: flex-start;
 }
+.key2 
+{
+    height: 2em;
+
+}
 .key2 h4 
 {
     color:yellow;
@@ -835,7 +856,234 @@
 .key2 h2{
     height: 1.5em;
 }
-
+.key3 
+{
+    height:1em;
+}
+.do2 
+{
+    display: flex;
+    padding-left: 1em;
+    width: 30em;
+    height: 7em;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+}
+.blo2 
+{
+    width: 21em;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.do3 
+{
+    display: flex;
+    padding-left: 1em;
+    width: 31em;
+    height: 7em;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.blo3 
+{
+    width: 23em;
+    display: flex;
+    justify-content: flex-end;
+}
+.buton2 
+{
+    background-color: #22b3c1;
+    height: 4em;
+    width: 11em;
+    border-radius: 2em;
+}
+.buton2 h3 
+{
+    color:white;
+}
+.buton3 
+{
+    background-color: #22b3c1;
+    height: 4em;
+    width: 11em;
+    border-radius: 2em;
+}
+.buton3 h3 
+{
+    color:white;
+}
+.map1
+{
+    width:30em;
+}
+.map2 iframe 
+{
+    height: 47em;
+    width: 20.5em;
+    border-radius: 2em;
+}
+.round 
+{
+    display: flex;
+    width:60%;
+    justify-content: center;
+}
+.round1
+{
+    background-color: white;
+    /* background-color: green; */
+    height:10em;
+}
+.e1 
+{
+    width: 2em;
+    color:#22b3c1;
+    display: flex;
+    font-size: 2em;
+    /* border: 1px solid black; */
+    /* border-radius: 50%; */
+    justify-content: center;
+}
+.r1 
+{
+    width: 1.5em;
+    color:#22b3c1;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #22b3c1;
+    border-radius: 50%;
+    font-size: 2em;
+}
+.r2 
+{
+    width: 1.5em;
+    color:#22b3c1;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #22b3c1;
+    border-radius: 50%;
+    font-size: 2em;
+}
+.r3
+{
+    width: 1.5em;
+    color:#22b3c1;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #22b3c1;
+    border-radius: 50%;
+    font-size: 2em;
+}
+.e2
+{
+    width: 2em;
+    color:#22b3c1;
+    display: flex;
+    font-size: 2em;
+    /* border: 1px solid black; */
+    /* border-radius: 50%; */
+    justify-content: center;
+}
+.fl
+{
+    display: flex;
+    width: 16em;
+    justify-content: space-between;
+}
+.o1 
+{
+    width: 0.5em;
+}
+.hl1
+{
+    height:10em;
+    display: flex;
+    width:100%;
+    background-color: #22b3c1;
+    background-image: url(co2.jpg);
+} 
+.last1
+{
+    /* background-color: yellow; */
+    height:10em;
+    width:71%;
+    display: flex;
+    border:none;
+    justify-content: center;
+}
+.lm1
+{
+    padding-top: 3em;
+}
+.lm1 h2
+{
+    font-size: 2.5em;
+    height: 1.5em;
+}
+.lm1 h4
+{
+    font-size: 1.5em;
+}
+.last_button
+{
+    height: 10em;
+    width: 24.5em;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lb1
+{
+    height: 3em;
+    width: 12em;
+    border: 1px solid white;
+    color:white;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bo_1 
+{
+    width: 12em;
+    
+    border-radius: 2em;
+    border:1px solid white;
+}
+.fo1
+{
+    height:8em;
+    background-color: #22b3c1;
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#cp1
+{
+    color:white;
+}
+#cp2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    color:white;
+}
+#ar2
+{
+    color:grey;
+}
+#ar3
+{
+    color:grey;
+}
 /* ---section2 ------------------------------------------*/
 
 
