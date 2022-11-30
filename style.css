@@ -15,7 +15,7 @@
 .logo
 {
     background-color:#22b3c1; /* Yellow */
-    width: 32%;
+    width: 26%;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -28,18 +28,38 @@
 .un_o
 {
     background-color:#22b3c1;  /*pink */
-    width: 68%;
+    width: 74%;
     /* margin-left: 1em; */
 }
 .unorder
 {
     display: flex;
     background-color: #22b3c1;
-    height: 4em;
+    height: 5em;
     /* margin-left: 11em; */
     justify-content: space-evenly;
     align-items: center;
     
+}
+.ico1 
+{
+    width: 2em;
+    background-color: #22b3c1;
+    Display:none;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+.ic1 
+{
+    height: 5em;
+    display: flex;
+    /* display: none; */
+    align-items: center;
+}
+.ic1 i 
+{
+    color: white;
 }
 .unorder li 
 {
@@ -808,7 +828,7 @@
 }
 .m3
 {
-    width: 7em;
+    width: 9em;
     display: flex;
     justify-content: flex-end;
 } 
@@ -934,13 +954,17 @@
 }
 .round1
 {
+    display: flex;
+    justify-content: end;
     background-color: white;
     /* background-color: green; */
-    height:10em;
+    height:2em;
 }
 .e1 
 {
     width: 2em;
+    height:1.5em;
+    align-items: center;
     color:#22b3c1;
     display: flex;
     font-size: 2em;
@@ -952,8 +976,10 @@
 {
     width: 1.5em;
     color:#22b3c1;
+    height: 1.5em;
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 1px solid #22b3c1;
     border-radius: 50%;
     font-size: 2em;
@@ -961,9 +987,11 @@
 .r2 
 {
     width: 1.5em;
+    height:1.5em;
     color:#22b3c1;
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 1px solid #22b3c1;
     border-radius: 50%;
     font-size: 2em;
@@ -971,9 +999,11 @@
 .r3
 {
     width: 1.5em;
+    height: 1.5em;
     color:#22b3c1;
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 1px solid #22b3c1;
     border-radius: 50%;
     font-size: 2em;
@@ -984,6 +1014,8 @@
     color:#22b3c1;
     display: flex;
     font-size: 2em;
+    height:1.5em;
+    align-items: center;
     /* border: 1px solid black; */
     /* border-radius: 50%; */
     justify-content: center;
@@ -996,7 +1028,11 @@
 }
 .o1 
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 0.5em;
+    font-size:1em;
 }
 .hl1
 {
@@ -1084,7 +1120,883 @@
 {
     color:grey;
 }
-/* ---section2 ------------------------------------------*/
+
+
+/* ---------------------------------Media Query Start--------------------------------------------------- */
+@media (max-width:2565px) and (min-width:2500px)
+{
+    .header
+    {
+         height: 6em;;
+    }
+    .nav{
+        height: 7em;
+    }
+    .logo 
+    {
+        justify-content: end;
+        width: 31%;
+    
+    }
+    .logo img 
+    {
+        justify-content: end;
+        /* width: 20%; */
+        width: 24%;
+        height: 4em;
+    }
+    .unorder 
+    {
+        
+        display: flex;
+    background-color: #22b3c1;
+    height: 6em;
+    /* margin-left: 11em; */
+    justify-content: center;
+    align-items: center;
+    }
+    .unorder li
+    {
+        font-size: 1em;
+    }
+    .in1 
+    {
+        padding-top:5em;
+        height: 58em;
+    }
+
+    .line1
+    {
+        font-size: 1.5em;
+        height: 15.7em;
+     width: 100%;
+    }
+    .line2{
+        color: white;
+    font-size: 5em;
+    /* padding-left: 5.8em; */
+    text-align: center;
+    display: flex;
+    margin-top: 0px;
+    width: 100%;
+    height: 1.5em;
+    justify-content: center;
+    align-items: flex-end;
+    }
+
+    .bo1 
+    {
+    width: 100%;
+    display: flex;
+    height: 8em;
+    justify-content: center;
+    align-items: flex-end;
+    }
+
+    .button1
+    {
+        border-radius: 4em;
+        height: 7em;
+        width: 10%;
+        border: 3px solid #22b3c1;
+    }
+    .button1 h4
+    {
+        font-size: 2em;
+    }
+
+    .IN2
+    {
+        display: flex;
+    padding-top: 3em;
+    width: 85%;
+    height: 9em;
+    justify-content: center;
+    }
+    .in2
+    {
+        margin-left: 24em;
+        background-color: white;
+        width: 89%;
+    /* margin-top: 1em; */
+    display: flex;
+    height: 82%;
+    border-radius: 6em;
+    justify-content: center;
+    }
+    .block1
+    {
+        width: 12em;
+
+    }
+    .block2
+    {
+        height: 8em;
+        width: 22em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: end;
+    }
+    .block3
+    {
+        height: 8em;
+        width: 26em;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        justify-content: end;
+    }
+    .block4 
+    {
+        
+        width: 28em;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .button2
+    {
+        background-color: #22b3c1;
+    height: 4em;
+    width: 13em;
+    border-radius: 2em;
+    }
+    .hi
+    {
+        display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    }
+    .hol1 
+    {
+        width: 19em;
+    }
+    .on 
+    {
+        width: 20em;
+    }
+    .hol2 
+    {
+        width:18em;
+    }
+    .tw 
+    {
+        width: 18em;
+    }
+    .hol3 
+    {
+        width:18em;
+    }
+    .thr 
+    {
+        width: 18em;
+    }
+    .hol4 
+    {
+        width:18em;
+    }
+    .fou 
+    {
+        width: 18em;
+    }
+    .bl1
+    {
+        width: 22em;
+    }
+    .bl2
+    {
+        justify-items: end;
+    }
+    .bl3
+    {
+        height: 10em;
+    }
+    .bl4{
+        display: grid;
+    }
+    .t1
+    {
+        padding-top: 7em;
+        padding-left: 29em;
+    width: 65em;
+    }
+    .text1
+    {
+        width: 33em;
+    }
+    .tx1
+    {
+        font-size: 40px;
+    }
+    
+    .tx2
+    {
+        font-size: 2em;
+    }
+    .middle
+    {
+        width: 52%;
+        margin-left: 43em;
+        padding-top:2em;
+    }
+    .round
+    {
+        width: 77%;
+    }
+    .swit img 
+    {
+        height: 18em;
+        width:18em;
+    }
+
+}
+@media (max-width:1450px) and (min-width:1400px)
+{
+    .header {
+        height: 4.7em;
+    }
+    .nav 
+    {
+        height: 4.7em;
+    }
+    .logo 
+    {
+        justify-content: end;
+        width: 18%;
+        margin-left: 3em;
+    }
+    .logo img 
+    {
+        height: 28%;
+    }
+
+    .unorder
+    {
+        height: 4em;
+        width:69em;
+        justify-content: flex-end;
+    }
+    .unorder li 
+    {
+        font-size: 1em;
+        width: 9em;
+    }
+    .un_o
+    {
+        padding-right: 9em;
+    }
+    .middle
+    {
+        padding-top: 3em;
+    }
+    .line1 
+    {
+        height: 14.7em;
+        width:70%;
+        justify-content: flex-end;
+    }
+    .line2 
+    {
+        color: white;
+    font-size: 4em;
+    /* padding-left: 5.8em; */
+    text-align: center;
+    margin-top: 0px;
+    width: 58%;
+    display: flex;
+    height: 1.3em;
+    justify-content: flex-end;
+    }
+    .bo1 
+    {
+        width: 58%;
+    display: flex;
+    height: 6em;
+    justify-content: flex-end;
+    }
+    .button1 
+    {
+        width: 19%;
+    }
+    .IN2
+    {
+        padding-top: 27em;
+        padding-left: 5em;
+    }
+    .t1
+    {
+        padding-top: 5em;
+        padding-left: 8em;
+    }
+    .se1 
+    {
+        padding-left: 8em;
+    }
+    .round
+    {
+        width: 85%;
+    }
+    .fl 
+    {
+        width: 12em;
+    }
+}
+
+@media (max-width:1030px) and (min-width:1020px)
+{
+    .header
+    {
+        height:3.7em;
+    }
+    .logo
+    {
+        width: 36%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .unorder 
+    {
+        display: flex;
+    background-color: #22b3c1;
+    height: 4em;
+    /* margin-left: 11em; */
+    justify-content: center;
+    align-items: center;
+    }
+    .line1
+    {
+        display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 1em;
+    width: 68%;
+    color: white;
+    height: 13.7em;
+    /* padding-left: 13em; */
+    text-align: center;
+    align-content: center;
+    }
+    .line2 
+    {
+        color: white;
+        font-size: 3em;
+        width: 58%;
+        display: flex;
+        /* padding-left: 5.8em; */
+        text-align: center;
+        margin-top: 0px;
+        height: 1.5em;
+        justify-content: flex-end;
+    }
+    .bo1 
+    {
+        width: 58%;
+        height:25em;
+        justify-content: flex-end;
+    }
+    .button1
+    {
+        width: 17%;
+    }
+
+    .logo img 
+    {
+        height: 41%;
+    }
+    .un_o
+    {
+        width:73%;
+    }
+    .IN1
+    {
+        
+    }
+    .IN2
+    {
+    display: flex;
+    padding-left:2em;
+    justify-content: center;
+    align-items: flex-end;
+    }
+    .in1
+    {
+        padding-top: 19em;
+    }
+    .block1 
+    {
+        width: 10em;
+    }
+    .in2 
+    {
+        width: 53em;
+    height: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:3em;
+    margin-left:0em;
+    }
+
+    .hi 
+    {
+        margin-left: 4em;
+    }
+    .key1 h2 
+    {
+        font-size: 1em;
+    }
+    .fl
+    {
+        width: 11em;
+        height: 2.5em;
+    }
+    .map2 
+    {
+        width: 20em;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .middle
+    {
+        width: 89%;
+    }
+    .map2 iframe
+    {
+        /* height: 47em; */
+        width: 15.5em;
+        border-radius: 2em;
+        height: 37em
+    }
+    .image1 
+    {
+        padding-top: 1.8em;
+        width: 33%;
+        padding-left: 0em;
+        display: flex;
+        /* display: contents; */
+        justify-content: flex-end;
+    
+    }
+    .block4
+    {
+        width: 19em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .button2
+    {
+        background-color: #22b3c1;
+    height: 6em;
+    width: 14em;
+    border-radius: 2em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    }
+    .swit img
+    {
+        height:10em;
+    }
+    .button2 h3
+    {
+        width: 6em;
+    }
+    .buton2 h4 
+    {
+        width: 6em;
+    }
+    .t1 
+    {
+        width: 30em;  
+    }
+    .se1 
+    {
+        padding-left: 0em;
+    }
+    .blo1 
+    {
+        width: 13em;
+        height: 5em;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .do1 
+    {
+        width: 26em;
+    }
+    .do2{
+        display: flex;
+    padding-left: 1em;
+    width: 30em;
+    height: 7em;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    }
+    .key2 h2
+    {
+        font-size: 1em;
+    }
+    .blo2
+    {
+        width: 16em;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    }
+    .key3 
+    {
+        font-size:0.8em;
+    }
+    .blo3
+    {
+        width: 18em;
+    }
+    .info1 
+    {
+        /* width: 9em; */
+        width: 7em;
+    }
+    .info_sec1 
+    {
+        width: 72%;
+    }
+    .m1
+    {
+        font-size:0.8em;
+    }
+    .m2
+    {
+        width: 7em;
+        font-size:0.8em;
+    }
+    .m3
+    {
+        /* width: 7em; */
+        width: 9em;
+    display: flex;
+    justify-content: center;
+        font-size:0.8em;
+    }
+    .last_button
+    {
+        justify-content: flex-start;
+    }
+    .im1 h2
+    {
+        font-size: 1em;
+    }
+    .fo1
+    {
+        width: 99%;
+    }
+    footer 
+    {
+        background-color: #22b3c1
+    }
+
+    .info2 
+    {
+        width: 12em;
+    }
+    .info3 
+    {
+        width: 8em;
+    }
+}
+
+@media (max-width:770px) and (min-width:700px)
+{
+    .header{
+        background-color: #22b3c1;
+        height: 5.7em;
+    }
+    .un_o 
+    {
+        display: none;
+    }
+    .logo 
+    {
+        background-color: #22b3c1;
+    width: 38%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    }
+    .logo img 
+    {
+        height: 49%;
+    }
+    .ic1 i 
+    {
+        font-size: 2em;
+    }
+    
+    .ico1 
+    {
+        /* display:none; */
+        display: flex;
+        width: 26em;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .in1
+    {
+        padding-top: 16em;
+    }
+    .in1 h3 
+    {
+        font-size: 1em;
+    }
+    .in1 h1 
+    {
+        font-size: 3em;
+    }
+    .button1 
+    {
+        width: 13%;
+    }
+    .se1 
+    {
+        margin-left: 2em;
+    }
+    .line2 
+    {
+        color: white;
+    display: flex;
+    font-size: 5em;
+    /* padding-left: 5.8em; */
+    text-align: center;
+    margin-top: 0px;
+    height: 1.5em;
+    justify-content: center;
+    align-items: flex-end;
+    }
+    .bo1 
+    {
+        width: 100%;
+        display: flex;
+        height: 5em;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .IN2
+    {
+        height: 33em;
+    }
+    .ver1 
+    {
+        display: flex;
+        height: 6em;
+        width: 38em;
+        justify-content: center;
+    }
+    .block1 
+    {
+        width: 8em;
+    display: flex;
+    justify-content: center;
+        /* width: 8em; */
+    }
+    .b
+    {
+        height: 8em;
+    width: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    }
+    
+    .block3 
+    
+    {
+        height: 8em;
+    width: 7em;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    }
+    .button2 
+    {
+        background-color: #22b3c1;
+    height: 4em;
+    width: 11em;
+    margin-right: 2em;
+    border-radius: 2em;
+    }
+    .ver2
+    {
+        /* padding-left: 1.5em; */
+        display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* width: 38em; */
+    width: 37em;
+    }
+    .in2 
+    {
+        margin-top: 21em;
+        background-color: white;
+    width: 80%;
+    /* margin-top: 1em; */
+    display: block;
+    height: 42%;
+    }
+    .d 
+    {
+        justify-content: flex-end;
+    }
+    .hi 
+    {
+        margin-left: 3em;
+    }
+    .block3
+    {
+        /* display: flex; */
+        display: flex;
+    justify-content: flex-start;
+        /* justify-content: flex-start; */
+    } 
+    .block2 
+    {
+        width: 8em;
+    }
+    .hol1 
+    {
+        width: 8em;
+    height: 0.1em;
+    }
+    .hol2 
+    {
+        width: 8em;
+    height: 0.1em;
+    }
+    .hol3 
+    {
+        width: 8em;
+    height: 0.1em;
+    }
+    .hol4 
+    {
+        width: 8em;
+    height: 0.1em;
+    }
+    .on 
+    {
+        width: 8em;
+    }
+    .thr h3 
+    {
+        width: 2em;
+    display: flex;
+    justify-content: flex-end;
+    }
+    #four
+    {
+        color: white;
+        width: 2em;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .tw h3 
+    {
+        width: 2.3em;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .middle 
+    {
+        display:block;
+    }
+    .t1 
+    {
+        padding-left: 0em;
+    }
+    #txt1 
+    {
+        width: 15em;
+    }
+    .text1
+    {
+        width: 28em
+    }
+    .tx2
+    {
+        width: 100%;
+    }
+    #txt2 
+    {
+        width: 100%;
+    }
+    .swit img 
+    {
+        height: 10em;
+    }
+    .map2 
+    {
+        width:86%;
+    }
+    .map2 iframe 
+    {
+        
+    width: 48.5em;
+    }
+    .ro 
+    {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+    .map1 
+    {
+        width: 48em;
+    }
+    .map2 iframe 
+    {
+        width: 42.5em;
+    }
+    .hl1 
+    {
+        height: 17em;
+    /* display: flex; */
+    display:block;
+    width: 100%;
+    background-color: #22b3c1;
+    background-image: url(co2.jpg);
+    }
+    .last1 
+    {
+        width:100%;
+    }
+    .last_button 
+    {
+        width: 49.5em;
+        height:4em;
+    }
+    
+    
+
+}
+@media (max-width:430px) and (min-width:400px)
+{
+    .unorder 
+    {
+        display:none;
+    }
+    .ico1 
+    {
+        width: 2em;
+        background-color: #22b3c1;
+        /* Display: none; */
+        display: flex;
+    }
+}
+
 
 
 
