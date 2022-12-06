@@ -1,0 +1,362 @@
+.IN2 
+{
+    display: flex;
+    width: 94%;
+    justify-content: center;
+}
+.in2
+{
+    background-color: white;
+    width: 75%;
+    /* margin-top: 1em; */
+    display: flex;
+    height: 22%;
+    border-radius: 6em;
+    justify-content: center;
+}
+.ver1 
+{
+    display:flex;
+}
+.block1
+{
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: end;
+}
+.b
+{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.sp1
+{
+    height: 2em;
+    width: 44%;
+    border: 2px solid #22b3c1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.icon1 i 
+{
+    color:#22b3c1;
+}
+.b_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data1
+{
+    align-items: center;
+    width:100%;
+}
+#v1
+{
+    /* height:1.4em; */
+    height: 1.4em;
+    font-size: 0.7em;
+}
+.data1 h4
+{
+    font-size: 0.8em;
+    color:#22b3c1;
+}
+.middle
+{
+    display: flex;
+
+}
+
+
+
+.block2
+{
+       
+    height: 8em;
+    width: 7em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: end;
+}
+.c1
+{
+    
+    height: 8em;
+    width: 6em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.c2
+{
+    
+    height: 8em;
+    width: 6em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.c3
+{
+    
+    height: 8em;
+    width: 6em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.sp2
+{
+    height: 4em;
+    width: 5em;
+    /* border-color: 2px solid #22b3c1; */
+    border: 2px solid #22b3c1;
+    border-radius: 50%;
+    display: flex;
+
+    align-items: center;
+}
+
+.icon2 i 
+{
+    color:#22b3c1;
+}
+.b2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data2
+{
+    width:100%;
+    align-items: center;
+    color:#22b3c1;
+}
+#v2
+{
+    height:1.4em;
+    
+}
+.data2 h4
+{
+    color:#22b3c1;
+}
+.ver2 
+{
+    display:flex;
+}
+.block3
+{
+       
+    height: 8em;
+    width: 7em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: end;
+}
+.d
+{
+    
+    height: 8em;
+    width: 6em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.sp3
+{
+    height: 4em;
+    width: 5em;
+    /* border-color: 2px solid #22b3c1; */
+    border: 2px solid #22b3c1;
+    border-radius: 50%;
+    display: flex;
+
+    align-items: center;
+}
+
+.icon3 i 
+{
+    color:#22b3c1;
+}
+.b3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data3
+{
+    width:100%;
+    align-items: center;
+    color:#22b3c1;
+}
+#v3
+{
+    height:1.3em;
+    
+}
+.data3 h4
+{
+    color:#22b3c1;
+}
+
+
+
+
+
+
+.block4
+{
+    width: 19em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button2 
+{
+    background-color: #22b3c1;
+    height: 4em;
+    width: 13em;
+    border-radius: 2em;
+}
+.button2 h3 
+{
+    color:white
+}
+.lo1 i 
+{
+    background-color: white;
+    color:white;
+}
+
+.in20{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.hi 
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 83%;
+}
+.bl1 
+{
+    height: 10em;
+    width: 22em;
+    display: grid;
+    justify-items: end;
+    align-content: center;
+}
+.hol1 
+{
+    width: 10em;
+    height: 0.1em;
+    background-color: white;
+}
+.on 
+{
+    width: 10em;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+}
+#one 
+{
+    color:white;
+}
+
+
+.bl2 
+{
+    height: 10em;
+    width: 13em;
+    display: grid;
+    justify-items: end;
+    align-content: center;
+}
+.hol2
+{
+    width: 10em;
+    height: 0.1em;
+    background-color: white;
+}
+.tw
+{
+    width: 10em;
+    display: flex;
+    justify-content: center;
+}
+#two 
+{
+    color:white;
+}
+
+
+.bl3 
+{
+    height: 10em;
+    width: 13em;
+    display: grid;
+    justify-items: end;
+    align-content: center;
+}
+.hol3
+{
+    width: 10em;
+    height: 0.1em;
+    background-color: white;
+}
+.thr
+{
+    width: 10em;
+    display: flex;
+    justify-content: center;
+}
+#three 
+{
+    color:white;
+}
+.bl4
+{
+    height: 10em;
+    width: 13em;
+    display: grid;
+    justify-items: end;
+    align-content: center;
+}
+.hol4
+{
+    width: 10em;
+    height: 0.1em;
+    background-color: white;
+}
+.fou
+{
+    width: 10em;
+    display: flex;
+    justify-content: center;
+}
+#four 
+{
+    color:white;
+}
